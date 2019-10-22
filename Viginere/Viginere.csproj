@@ -33,7 +33,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <StartupObject>Viginere.Test</StartupObject>
+    <StartupObject>Viginere.Program</StartupObject>
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
