@@ -1,0 +1,59 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.779
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AlgoritmCriptare", "AlgoritmiIstorici\AlgoritmCriptare.csproj", "{1A341C78-AE5E-410B-A110-B8E410095655}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Utils", "Utils.cs\Utils.csproj", "{5BADDD5F-7E63-4899-8F12-1B454B0B111A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cesar", "Cesar\Cesar.csproj", "{F34AE59E-2BBE-455B-BAF4-A44920E4CB23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{5BADDD5F-7E63-4899-8F12-1B454B0B111A} = {5BADDD5F-7E63-4899-8F12-1B454B0B111A}
+		{1A341C78-AE5E-410B-A110-B8E410095655} = {1A341C78-AE5E-410B-A110-B8E410095655}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CifruN", "CifruN\CifruN.csproj", "{3B1509BA-0E22-47B1-A132-F7F2E95FA90C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoliAlfabetic", "PoliAlfabetic\PoliAlfabetic.csproj", "{27704AB8-0E16-43C3-BED1-78FC761F69EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Viginere", "Viginere\Viginere.csproj", "{09405DE7-BDC9-46F4-B4AE-C909245E67F1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A341C78-AE5E-410B-A110-B8E410095655}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A341C78-AE5E-410B-A110-B8E410095655}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A341C78-AE5E-410B-A110-B8E410095655}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A341C78-AE5E-410B-A110-B8E410095655}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BADDD5F-7E63-4899-8F12-1B454B0B111A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BADDD5F-7E63-4899-8F12-1B454B0B111A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BADDD5F-7E63-4899-8F12-1B454B0B111A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BADDD5F-7E63-4899-8F12-1B454B0B111A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F34AE59E-2BBE-455B-BAF4-A44920E4CB23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F34AE59E-2BBE-455B-BAF4-A44920E4CB23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F34AE59E-2BBE-455B-BAF4-A44920E4CB23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F34AE59E-2BBE-455B-BAF4-A44920E4CB23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B1509BA-0E22-47B1-A132-F7F2E95FA90C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B1509BA-0E22-47B1-A132-F7F2E95FA90C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B1509BA-0E22-47B1-A132-F7F2E95FA90C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B1509BA-0E22-47B1-A132-F7F2E95FA90C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{27704AB8-0E16-43C3-BED1-78FC761F69EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{27704AB8-0E16-43C3-BED1-78FC761F69EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{27704AB8-0E16-43C3-BED1-78FC761F69EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{27704AB8-0E16-43C3-BED1-78FC761F69EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09405DE7-BDC9-46F4-B4AE-C909245E67F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09405DE7-BDC9-46F4-B4AE-C909245E67F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09405DE7-BDC9-46F4-B4AE-C909245E67F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09405DE7-BDC9-46F4-B4AE-C909245E67F1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5A9A5474-E355-4935-9F1F-21515E31335B}
+	EndGlobalSection
+EndGlobal
